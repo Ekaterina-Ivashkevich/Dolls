@@ -472,7 +472,7 @@ html {
 }
 
 body {
-  background-color: #e9d6be;
+  background-color: #775f57ef;
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -485,8 +485,15 @@ a {
   text-decoration: none;
 }
 
-.container {
+.wrapper {
   max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: #272219 0px 0px 20px;
+          box-shadow: #272219 0px 0px 20px;
+}
+
+.container {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -514,14 +521,17 @@ a {
   background-size: cover;
   min-height: 300px;
   border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .header-logo {
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 .header-logo__img {
   padding: 5px;
-  max-width: 200px;
+  max-width: 180px;
   width: 100%;
   background-color: rgba(238, 236, 226, 0.473);
   border-radius: 5px;
@@ -564,7 +574,7 @@ a {
   text-transform: uppercase;
   color: white;
   text-shadow: black 3px 3px 5px;
-  font-weight: 800;
+  font-weight: 700;
   margin: 15px;
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
@@ -576,4 +586,98 @@ a {
       -ms-transform: scale(1.1);
           transform: scale(1.1);
   text-shadow: black 1px 1px 4px;
+}
+
+.flex-container {
+  background-color: #FAEBD7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.main-navbar {
+  min-width: 250px;
+  width: 100%;
+}
+.main-navbar__title {
+  text-align: center;
+  margin: 45px 5px 30px 5px;
+}
+.main-navbar__list {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+.main-search__title {
+  text-align: center;
+  margin: 55px 5px 15px 5px;
+}
+.main-search__form {
+  width: 100%;
+}
+
+.main {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.main__title {
+  text-align: center;
+  margin: 35px 5px;
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+}
+
+.carousel {
+  min-height: 150px;
+  width: 100%;
+  background-image: url("/assets/img/carousel2.jpg");
+}
+
+.main-news__sub-title {
+  text-align: center;
+  margin: 30px;
+}
+.main-news__article-title {
+  text-align: center;
+}
+.main-news__img {
+  float: right;
+  max-width: 150px;
+}
+
+.main-info {
+  min-width: 250px;
+  width: 100%;
+}
+
+.main-forum__title {
+  text-align: center;
+  margin: 45px 5px 30px 5px;
+}
+
+.footer {
+  background-color: #3b312ebe;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
