@@ -1,11 +1,9 @@
-
 @import "../../libs/normalize-scss/sass/normalize/import-now";
 @import "skin";
 @import "variables";
 @import "mixins";
 @import "mixins-media";
 @import "extends";
-
 @import "common";
 @import "header/header";
 @import "header/header-overlay";
@@ -13,10 +11,8 @@
 @import "header/header-logo";
 @import "header/header-navbar";
 @import "header/header-content";
-
-@import "sections/section-skills";
-@import "sections/section-about";
-@import "sections/section-form";
+@import "sections/section-left";
+@import "sections/section-main";
+@import "sections/section-right";
 @import "sections/section-posts";
-
-@import "footer";
+@import "footer/footer";

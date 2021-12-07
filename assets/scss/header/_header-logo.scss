@@ -1,0 +1,12 @@
+.header-logo {
+    margin-top: 20px;
+    &__img {
+        padding: 5px;
+        max-width: 200px;
+        width: 100%;
+        background-color: rgba(238, 236, 226, 0.473);
+        border-radius: 5px;
+        border: 1px rgb(85, 61, 44) solid;
+        box-shadow: blanchedalmond 5px 5px 10px;
+    }
+}
