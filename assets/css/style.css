@@ -472,7 +472,7 @@ html {
 }
 
 body {
-  background-color: #775f57ef;
+  background-color: seashell;
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -589,7 +589,7 @@ a {
 }
 
 .flex-container {
-  background-color: #FAEBD7;
+  background-color: #f5e4d9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -680,4 +680,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
