@@ -515,7 +515,7 @@ a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-image: url("/assets/img/gotz_together__header.jpg");
+  background-image: url("../img/gotz_together__header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -640,7 +640,7 @@ a {
 .carousel {
   min-height: 150px;
   width: 100%;
-  background-image: url("/assets/img/carousel2.jpg");
+  background-image: url("../img/carousel2.jpg");
 }
 
 .main-news__sub-title {
